@@ -1,0 +1,31 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ /***Image Thumbnail Styles***/
+.bsm-image-container {
+  width: 150px;
+  height: 150px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#bsm-images-container div {
+  display: inline-block;
+}
+
+.bsm-image-container img {
+  max-width: 100%;
+  height: 150px;
+}
+
+.bsm-image-container label {
+  text-align: center;
+  display: block;
+}
+
+/***Instructions Styles***/
+div#bsm-add-meida-instruction h3 {
+  padding-left: 0;
+}
